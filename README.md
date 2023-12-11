@@ -1,4 +1,4 @@
-# ProductPricings
+# CoffeeShop
 Product Pricing: A case study for OOAD in the study year 2023-24
 
 1-Building the project ProductApi
