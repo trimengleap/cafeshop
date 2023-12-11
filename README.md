@@ -1,11 +1,16 @@
 # CoffeeShop
-Product Pricing: A case study for OOAD in the study year 2023-24
+1-Building the project CoffeApi
 
-1-Building the project ProductApi
-  > dotnet build
+> dotnet build
 
 2-Preparing migration
-  > dotnet ef migrations add "InitProducts" --context sqldbcontext
 
-3-Updating database
-  > dotnet ef database update --context sqldbcontext
+> dotnet ef migrations add "InitCoffe" --context sqldbcontext
+
+3-drop database
+
+> dotnet ef database drop -- context sqldbcontext
+
+4-Updating database
+
+> dotnet ef database update --context sqldbcontext
